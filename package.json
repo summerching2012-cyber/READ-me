@@ -1,0 +1,27 @@
+{
+  "name": "kids-explainer-videos",
+  "version": "1.0.0",
+  "description": "两个给 4 岁宝宝看的科普动画：家里的电和水是从哪里来的",
+  "main": "src/build.js",
+  "scripts": {
+    "build": "node src/build.js",
+    "build:electricity": "node src/build.js electricity",
+    "build:water": "node src/build.js water",
+    "stills": "node src/build.js --stills"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/summerching2012-cyber/READ-me.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/summerching2012-cyber/READ-me/issues"
+  },
+  "homepage": "https://github.com/summerching2012-cyber/READ-me#readme",
+  "dependencies": {
+    "@napi-rs/canvas": "^1.2.0",
+    "msedge-tts": "^2.1.1"
+  },
+  "type": "module"
+}
